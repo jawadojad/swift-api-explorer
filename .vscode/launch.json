@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-api-explorer}",
+            "name": "Debug swift-api-explorer",
+            "program": "${workspaceFolder:swift-api-explorer}/.build/debug/swift-api-explorer",
+            "preLaunchTask": "swift: Build Debug swift-api-explorer"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-api-explorer}",
+            "name": "Release swift-api-explorer",
+            "program": "${workspaceFolder:swift-api-explorer}/.build/release/swift-api-explorer",
+            "preLaunchTask": "swift: Build Release swift-api-explorer"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-api-explorer}",
+            "name": "Debug api-explorer",
+            "program": "${workspaceFolder:swift-api-explorer}/.build/debug/api-explorer",
+            "preLaunchTask": "swift: Build Debug api-explorer"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-api-explorer}",
+            "name": "Release api-explorer",
+            "program": "${workspaceFolder:swift-api-explorer}/.build/release/api-explorer",
+            "preLaunchTask": "swift: Build Release api-explorer"
+        }
+    ]
+}
